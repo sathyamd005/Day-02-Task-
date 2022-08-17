@@ -1,0 +1,82 @@
+01 write a blog on the difference between document and window objects
+
+Document Object:
+	
+        ⦁ It represents any HTML document or web page that is loaded in the browser.It is loaded inside the window.
+	⦁ It is the object of window property.
+	⦁ All the tags, elements with attributes in HTML are part of the document
+	⦁ We can access the document from a window using the window. document
+	⦁ The document is part of BOM (browser object model) and dom (Document object model) 
+	⦁ Properties of document objects such as title, body, cookies, etc can also be accessed by a window like this window. document.title
+
+example:
+
+document.title: will return the title of the document
+
+Syntax:
+
+document.property_name;
+
+The properties of document objects that are commonly used are,
+
+Properties of document:
+activeElement: It returns the currently active elements in the document.
+body: It returns the contents of the body element.
+anchors: It returns all <a> elements that have a name attribute.
+baseURI: It returns a string value that represents the base URI of the document.
+cookie: It returns the cookie of the current document.
+
+Methods of Document:
+
+Syntax:
+
+document.method_name;
+
+The lists of most commonly used methods are,
+
+addEventListener(): It is used to attach an event handler to the specified element.
+close(): It is used to close the output stream.
+createComment(): It is used to create a comment node with some text.
+createElement(): It is used to create HTML element .
+createEvent(): It is used to create a new events object.
+createTextNode(): It is used to create a textnode.
+
+Window Object:
+	⦁ It represents a browser window or frame that displays the contents of the webpage
+	⦁ It is the very first object that is loaded in the browser.It is the object of the browser.
+	⦁ Global objects, functions, and variables of JavaScript are members of the window object
+	⦁ we can access the window from the window only. i.e. window.window 
+	⦁ The window is part of BOM, not DOM.
+	⦁ Properties of the window object cannot be accessed by the document object.
+
+example:
+
+window.innerHeight:will return the height of the content area of the browser
+
+Syntax:
+
+window.property_name;
+
+The properties of Window objects that are commonly used are,
+
+Properties of the window:
+
+Document: It returns a reference to the document object of that window.
+innerHeight: It is used to get the height of the content area of the browser window.
+innerWidth: It is used to get the width of the content area of the browser window.
+Name: It contains the name of the referenced window.
+Window: It returns the current window or frame.
+
+Methods of Window:
+
+Syntax:
+
+window.method_name;
+
+The methods of Window objects that are commonly used are,
+blur(): It is used to remove focus from the current window.
+btoa(): It is used for encoding a string in base-64 format.
+clearInterval(): It clears the interval which has been set by the setInterval() function before that.
+clearTimeout(): It clears the timeout which has been set by the setTimeout()function before that.
+focus(): It is used to give focus to an element in the current window.
+
